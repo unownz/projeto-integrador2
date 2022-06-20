@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  p(class=pclass)= msg
+  h1= title
+  p Welcome to #{title}
+  p
+    a(href="/auth/login") Entrar
+  p
+    a(href="/auth/register") Cadastre-se

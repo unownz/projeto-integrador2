@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 Bem vindo #{(user.username).toUpperCase()}
+    p ( #{user.email} )
+    div(id="map", class="map")
+    div(class="overlay-container")
+        span(class="overlay-text", id="feature-name")
+    script(src="/libs/v6.14.1-dist/ol.js")
+    script(src="/javascripts/map.js")

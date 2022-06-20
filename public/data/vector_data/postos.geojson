@@ -1,0 +1,42 @@
+{
+    "type":"FeatureCollection",
+    "features":
+        [
+            {
+                "type":"Feature",
+                "properties":
+                {
+                    "name":"Auto Posto Praia Center Petrobras BR"
+                },
+                "geometry":
+                {
+                    "type":"Point",
+                    "coordinates":[-45.410947696332805, -23.62390105669994]
+                }
+            },
+            {
+                "type":"Feature",
+                "properties":
+                {
+                    "name":"Auto Posto Mareli"
+                },
+                "geometry":
+                {
+                    "type":"Point",
+                    "coordinates":[-45.40871654522751, -23.62082224933696]
+                }
+            },
+            {
+                "type":"Feature",
+                "properties":
+                {
+                    "name":"Auto Posto Mar Virado"
+                },
+                "geometry":
+                {
+                    "type":"Point",
+                    "coordinates":[-45.41263497211508, -23.622475311472606]
+                }
+            }
+        ]
+}

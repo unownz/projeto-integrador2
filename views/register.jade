@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    h1= title
+    p(class=pclass)= msg
+    form(action="/auth/register", method="post")
+        p
+            label(for="email") Usuário: 
+            input(type="text", name="username", placeholder="Digite seu nome de usuário")
+        p
+            label(for="email") E-mail: 
+            input(type="text", name="email", placeholder="Digite seu email")
+        p
+            label(for="password") Senha: 
+            input(type="password", name="password", placeholder="Digite sua senha")
+        p
+            label(for="confirmPassword") Corfime sua senha: 
+            input(type="password", name="confirmPassword", placeholder="Digite sua senha novamente")
+        p
+            input(type="submit", value="Entrar")

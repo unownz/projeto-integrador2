@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1= title
+    p(class=pclass)= msg
+    form(action="", method="post")
+        p
+            label(for="user") Login: 
+            input(type="text", name="user", placeholder="Digite seu usuário ou e-mail")
+        p
+            label(for="password") Senha: 
+            input(type="password", name="password", placeholder="Digite sua senha")
+        p
+            input(type="submit", value="Entrar")

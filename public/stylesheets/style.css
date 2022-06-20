@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+/* Feature Overlay */
+.overlay-container {
+  background-color: blue;
+  width: 150px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.overlay-container #feature-additional-info::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
